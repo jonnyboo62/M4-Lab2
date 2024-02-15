@@ -95,7 +95,7 @@ function buildGrid() {
     }
 
     // UPDATE EMPLOYEE COUNT
-    empCount.textContent = `(${employees.length})`;
+    empCount.textContent = employees.length;
 
     // STORE THE ARRAY IN STORAGE
     localStorage.setItem('employees', JSON.stringify(employees));
